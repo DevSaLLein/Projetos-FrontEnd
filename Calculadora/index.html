@@ -1,38 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        Vamos calcular?
-    </title>
-</head>
-<body>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora</title>
+        <script src="script.js" DEFER></script>
+    </head>
+    <body>
+        <header>
+            <h2>
+                Calculadora
+            </h2>
+        </header>
 
-    <h1 class="hearder"> Calculadora </h1>
+        <main>
+            <input type='button' value="1" id="1"/>
+            <input type='button' value="2" id="2"/>
+            <input type='button' value="3" id="3"/> <br>
+            <input type='button' value="4" id="4"/>
+            <input type='button' value="5" id="5"/>
+            <input type='button' value="6" id="6"/> <br>
+            <input type='button' value="7" id="7"/>
+            <input type='button' value="8" id="8"/>
+            <input type='button' value="9" id="9"/> <br>
+            <input type='button' value="+" id="+"/>
+            <input type='button' value="0" id="0"/>
+            <input type='button' value="=" id="="/>
+        </main>
 
-        <div id="calc">
-
-            <input type = "number" class = "num" onfocus>
-            <label for = "num"> Número </label>
-
-            <input type = "number" class = "num">
-            <label for = "num"> Número </label>
+        <footer>
             
-            <select id = "sec">
-
-                <option value = "soma"> + </option>
-                <option value = "sub"> - </option>
-                <option value = "x"> x </option>
-                <option value = "div"> / </option>
-
-            </select>
-
-            <input type = "button" class = "calc" value = "Calcular" >
-
-        </div>
-</body>
+        </footer>
+    </body>
 </html>

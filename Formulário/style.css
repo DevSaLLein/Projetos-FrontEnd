@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Playfair+Display:ital,wght@0,500;0,700;1,400;1,500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px;
+}
+
+.input:focus{
+    border: none;
+    transition: all  500ms ease;
+    width: 120%;
+}
+
+.label {
+    width: 100%;
+}
+
+.submit {
+    width: 33.33%;
+    border: none;
+    background-color: blanchedalmond;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+span {
+    font-weight: 500;
+    
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.dados {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.submit:hover {
+    background-color: rgb(255, 223, 176);
+    transition: all 500ms ease;
+    width: 40%;
+}
+

@@ -1,36 +1,63 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Calculadora</title>
+
+        <link rel="stylesheet" href="style.css">
         <script src="script.js" DEFER></script>
     </head>
     <body>
-        <header>
-            <h2>
-                Calculadora
-            </h2>
-        </header>
 
-        <main>
-            <input type='button' value="1" id="1"/>
-            <input type='button' value="2" id="2"/>
-            <input type='button' value="3" id="3"/> <br>
-            <input type='button' value="4" id="4"/>
-            <input type='button' value="5" id="5"/>
-            <input type='button' value="6" id="6"/> <br>
-            <input type='button' value="7" id="7"/>
-            <input type='button' value="8" id="8"/>
-            <input type='button' value="9" id="9"/> <br>
-            <input type='button' value="+" id="+"/>
-            <input type='button' value="0" id="0"/>
-            <input type='button' value="=" id="="/>
+        <main class="container">
+            
+            <section class="calculator">
+                <form>
+
+                    <div class="display">
+                        <input type="text" name="display" id="display" value="" placeholder="...">
+                    </div>
+
+                    <div>
+                        <input type="button" value="AC">
+                        <input type="button" value="DE">
+                        <input type="button" value=".">
+                        <input type="button" value="/">
+                    </div>
+
+                    <div>
+                        <input type="button" value="7">
+                        <input type="button" value="8">
+                        <input type="button" value="9">
+                        <input type="button" value="*">
+                    </div>
+
+                    <div>
+                        <input type="button" value="4">
+                        <input type="button" value="5">
+                        <input type="button" value="6">
+                        <input type="button" value="-">
+                    </div>
+
+                    <div>
+                        <input type="button" value="1">
+                        <input type="button" value="2">
+                        <input type="button" value="3">
+                        <input type="button" value="+">
+                    </div>
+
+                    <div>
+                        <input type="button" value="00">
+                        <input type="button" value="0">
+                        <input type="button" value="=" class="equal">
+                    </div>
+
+                </form>
+
+            </section>
+
         </main>
 
-        <footer>
-            
-        </footer>
     </body>
 </html>
